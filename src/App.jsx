@@ -22,9 +22,9 @@ function App() {
         <div className="background-image"></div>
         <div className="content">
          <div className="landing_content">
-         <h1>Welcome To Paradise Nursery</h1>
+         <h1>Welcome To Verdant Haven</h1>
           <div className="divider"></div>
-          <p>Where Green Meets Serenity</p>
+          <p>Nurture Your Space, Soothe Your Soul</p>
          
           <button className="get-started-button" onClick={handleGetStartedClick}>
             Get Started

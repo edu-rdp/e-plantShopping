@@ -5,12 +5,9 @@ function AboutUs() {
   return (
     <div className="about-us-container">
       {/* <h1 className="about-us-heading">About Us</h1> */}
-      <p className="about-us-description">Welcome to Paradise Nursery, where green meets serenity!</p>
+      <p className="about-us-description">Welcome to Verdant Haven, where green meets serenity!</p>
       <p className="about-us-content">
-        At Paradise Nursery, we are passionate about bringing nature closer to you. Our mission is to provide a wide range of 
-        high-quality plants that not only enhance the beauty of your surroundings but also contribute to a healthier and 
-        more sustainable lifestyle. From air-purifying plants to aromatic fragrant ones, we have something for every 
-        plant enthusiast.
+      Welcome to Verdant Haven, your premier online destination for a diverse range of botanical wonders. Whether you're a seasoned plant enthusiast or just beginning your green journey, our e-botanical store offers an extensive variety of flora to suit every need and preference. Explore our air-purifying plants like the Snake Plant and Spider Plant, aromatic delights such as Lavender and Jasmine, and insect-repellent options including Marigold and Basil. Discover the healing power of medicinal plants like Aloe Vera and Echinacea, or opt for low-maintenance varieties such as the ZZ Plant and Pothos. Our user-friendly platform ensures a seamless shopping experience, complete with expert advice and tips to help your plants thrive, transforming your space into a lush sanctuary.
       </p>
       {/* <p className="plant_logo_left"><img src="https://p1.hiclipart.com/preview/922/979/640/green-leaf-logo-emoji-seedling-emoticon-sticker-plant-plant-stem-flower-png-clipart-thumbnail.jpg" height='50px' width='50px' alt="" /></p> */}
       <p className="about-us-content">
@@ -22,7 +19,7 @@ function AboutUs() {
       {/* <p className="plant_logo_right"><img src="https://p1.hiclipart.com/preview/922/979/640/green-leaf-logo-emoji-seedling-emoticon-sticker-plant-plant-stem-flower-png-clipart-thumbnail.jpg" height='50px' width='50px' alt="" /></p> */}
 
       <p className="about-us-content">
-        Join us in our mission to create a greener, healthier world. Visit Paradise Nursery today and experience the 
+        Join us in our mission to create a greener, healthier world. Visit Verdant Haven today and experience the 
         beauty of nature right at your doorstep.
       </p>
     </div>
