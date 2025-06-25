@@ -164,13 +164,28 @@ body {
     color: white;
     display: flex;
 }
-.cart_quantity_count{
-    margin-top: 16px;
-    /* background-color: red; */
-    margin-left: 27px;
-    position: absolute;
-    font-size: 29px;
+.cart_quantity_count {
+  position: absolute;
+  top: 8px;              /* Position 8px from the top of the container */
+  right: -5px;             /* Position 5px from the right of the container */
+  
+  /* Make it highly visible and circular */
+  background-color: #e74c3c; /* A contrasting red color like in many e-commerce sites */
+  color: white;            /* White text */
+  border-radius: 50%;    /* Makes it a perfect circle */
+  width: 28px;             /* Fixed width */
+  height: 28px;            /* Fixed height */
 
+  /* These 3 lines perfectly center the number inside the circle */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 16px;
+  font-weight: bold;
+  
+  /* This is the most important property to fix the visibility issue */
+  z-index: 10;             /* Ensures it renders on top of other elements */
 }
 .plantname_heading{
    display: flex;
@@ -184,10 +199,16 @@ body {
     margin: 20px;
     border: 1px solid rgb(5, 4, 4);
     border-left: none;
-    border-right: none;
-
-    
+    border-right: none;  
 }
+
+    .category-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
 /* Add Media Query for responsiveness */
 @media (max-width: 768px) {
     .product-card {
@@ -215,9 +236,11 @@ body {
     background-color: #45a049;
   }
   
-  .product-button.added-to-cart {
-    background-color: grey; /* Grey when product is added */
-  }
+  .product-button:disabled {
+    background-color: grey;
+    cursor: not-allowed;
+    }
+
   @media (max-width: 1200px) {
     .product-card {
       flex: 1 1 calc(33.33% - 20px); /* Adjust width for 3 cards per row with 20px gap on medium screens */
@@ -248,5 +271,5 @@ body {
     
       .ul div {
         text-align: center; /* Align text to the center */
-      }
-  }
+    }
+}
